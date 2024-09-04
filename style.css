@@ -152,9 +152,27 @@ p{
   animation-range: entry 0% cover 40%;
 }
 
+.message {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .robbie_profile {
   background-color: #eeee;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.ronan_profile {
+  background-color: #eeee;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   animation: appear linear;
@@ -176,4 +194,56 @@ p{
   .robbie_profile{
     flex-direction: column;
   }
+  .robbie_profile p {
+    width: 10 0%;
+  }
+}
+
+.contact_title{
+  color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input{
+  margin-left: 12%;
+  width: 70%;
+  padding: 16px 16px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+textarea{
+  width: 70%;
+  margin-left: 12%;
+  font-size: 20px;
+  padding: 16px 16px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+button{
+  border-radius: 20px;
+  font-size: 22px;
+  padding: 10px 18px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+button:hover{
+  opacity: 80%;
+  cursor: pointer;
+
+}
+
+form {
+  background-color: #222;
+}
+
+p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
