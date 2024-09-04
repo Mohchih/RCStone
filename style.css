@@ -197,6 +197,12 @@ p{
   .robbie_profile p {
     width: 10 0%;
   }
+ #robbie_img{
+    width: 24rem;
+  }
+  #ronan_img{
+    width: 24rem;
+  }
 }
 
 .contact_title{
