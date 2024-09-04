@@ -188,6 +188,9 @@ p{
   .block{
     flex-direction: column;
   }
+ .block img {
+    width: 24rem;;
+  }
   #showcase2 {
     flex-direction: column;
   }
