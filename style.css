@@ -188,19 +188,19 @@ p{
   .block{
     flex-direction: column;
   }
- .block img {
+  .block img {
     width: 24rem;;
   }
   #showcase2 {
     flex-direction: column;
   }
-  .robbie_profile{
+  .profile{
     flex-direction: column;
   }
-  .robbie_profile p {
-    width: 10 0%;
+  .profile p {
+    width: 100%;
   }
- #robbie_img{
+  #robbie_img{
     width: 24rem;
   }
   #ronan_img{
