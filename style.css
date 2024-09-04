@@ -198,13 +198,15 @@ p{
     flex-direction: column;
   }
   .profile p {
-    width: 10 0%;
+    width: 100%;
   }
   #robbie_img{
-    width: 24rem;
+    display: flex;
+    width: 15rem;
+    justify-content: center;
   }
   #ronan_img{
-    width: 24rem;
+    width: 15rem;
   }
 }
 
