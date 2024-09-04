@@ -158,7 +158,7 @@ p{
   align-items: center;
 }
 
-.robbie_profile {
+.profile {
   background-color: #eeee;
   display: flex;
   flex-direction: column;
@@ -169,16 +169,6 @@ p{
   animation-range: entry 0% cover 40%;
 }
 
-.ronan_profile {
-  background-color: #eeee;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
 
 #robbie_img {
   width: 30rem;
